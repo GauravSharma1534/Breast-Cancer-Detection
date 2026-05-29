@@ -29,77 +29,6 @@ The 30 features are computed from digitised images of fine needle aspirate (FNA)
 
 ---
 
-##  Models Used
-
-I trained and compared 3 models:
-
-| Model | Accuracy | Precision | Recall | F1-Score | ROC-AUC | False Neg. |
-|-------|----------|-----------|--------|----------|---------|-----------|
-| Logistic Regression | **98.25%** | 98.61% | 98.61% | 98.61% | 99.54% | 1 |
-| SVM (RBF Kernel) | 97.37% | 98.59% | 97.22% | 97.90% | **99.57%** | 2 |
-| Random Forest | 95.61% | 95.89% | 97.22% | 96.55% | 99.32% | 3 |
-| RF (ROC-Optimised) | 96.49% | — | Higher | — | — | ↓ ~18% FN |
-
----
-
-
-
-##  How to Run
-
-**Step 1 — Clone the repo**
-```bash
-git clone https://github.com/GauravSharma1534/Breast-Cancer-Detection.git
-cd Breast-Cancer-Detection
-```
-
-**Step 2 — Install required libraries**
-```bash
-pip install scikit-learn pandas matplotlib seaborn numpy
-```
-
-**Step 3 — Run the pipeline**
-```bash
-python breast_cancer_detection.py
-```
-
-Running this will:
-- Load the dataset and print basic info
-- Train all 3 models and print results
-- Apply ROC-threshold tuning on Random Forest
-- Save 5 charts to the `charts/` folder
-- Run 5-Fold Cross-Validation and show score distribution
-
----
-
-
-
----
-
-##  Key Findings
-
-- **Logistic Regression** gave the best accuracy of **98.25%** — even though it's the simplest model. This shows the dataset is largely linearly separable after scaling.
-- **SVM** achieved the highest ROC-AUC of **99.57%**, making it best for threshold-based clinical tuning.
-- **Random Forest** provides feature importances — the most useful features are *worst concave points*, *worst area*, and *worst radius*.
-- **ROC-threshold tuning** (Youden's J statistic) on Random Forest reduced false negatives by **~18%**, which is important in medical settings where missing a cancer case is dangerous.
-- **5-Fold Cross-Validation** shows all models generalise well with standard deviation < 0.01.
-
----
-
-##  Technologies 
-
-- **Python 3.x**
-- **scikit-learn** — models, preprocessing, metrics
-- **pandas** — data loading, manipulation
-- **matplotlib + seaborn** — all visualisations
-- **numpy** — numerical operations
-
----
-
-
-
----
-
-
 #  Project Objectives
 
 The primary objectives of this project are:
@@ -173,6 +102,78 @@ Each characteristic is represented through:
 resulting in 30 numerical features.
 
 ---
+
+##  Models Used
+
+I trained and compared 3 models:
+
+| Model | Accuracy | Precision | Recall | F1-Score | ROC-AUC | False Neg. |
+|-------|----------|-----------|--------|----------|---------|-----------|
+| Logistic Regression | **98.25%** | 98.61% | 98.61% | 98.61% | 99.54% | 1 |
+| SVM (RBF Kernel) | 97.37% | 98.59% | 97.22% | 97.90% | **99.57%** | 2 |
+| Random Forest | 95.61% | 95.89% | 97.22% | 96.55% | 99.32% | 3 |
+| RF (ROC-Optimised) | 96.49% | — | Higher | — | — | ↓ ~18% FN |
+
+---
+
+
+
+##  How to Run
+
+**Step 1 — Clone the repo**
+```bash
+git clone https://github.com/GauravSharma1534/Breast-Cancer-Detection.git
+cd Breast-Cancer-Detection
+```
+
+**Step 2 — Install required libraries**
+```bash
+pip install scikit-learn pandas matplotlib seaborn numpy
+```
+
+**Step 3 — Run the pipeline**
+```bash
+python breast_cancer_detection.py
+```
+
+Running this will:
+- Load the dataset and print basic info
+- Train all 3 models and print results
+- Apply ROC-threshold tuning on Random Forest
+- Save 5 charts to the `charts/` folder
+- Run 5-Fold Cross-Validation and show score distribution
+
+---
+
+
+
+---
+
+##  Key Findings
+
+- **Logistic Regression** gave the best accuracy of **98.25%** — even though it's the simplest model. This shows the dataset is largely linearly separable after scaling.
+- **SVM** achieved the highest ROC-AUC of **99.57%**, making it best for threshold-based clinical tuning.
+- **Random Forest** provides feature importances — the most useful features are *worst concave points*, *worst area*, and *worst radius*.
+- **ROC-threshold tuning** (Youden's J statistic) on Random Forest reduced false negatives by **~18%**, which is important in medical settings where missing a cancer case is dangerous.
+- **5-Fold Cross-Validation** shows all models generalise well with standard deviation < 0.01.
+
+---
+
+##  Technologies 
+
+- **Python 3.x**
+- **scikit-learn** — models, preprocessing, metrics
+- **pandas** — data loading, manipulation
+- **matplotlib + seaborn** — all visualisations
+- **numpy** — numerical operations
+
+---
+
+
+
+---
+
+
 
 #  Machine Learning Workflow
 
