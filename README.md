@@ -13,21 +13,7 @@ This is my B.Tech Data Science project built as part of my coursework at Chandig
 
 ---
 
-#  Dataset
 
-| Property | Details |
-|----------|---------|
-| Name | Wisconsin Breast Cancer Dataset |
-| Source | `sklearn.datasets.load_breast_cancer()` |
-| Total Samples | 569 |
-| Features | 30 (numerical) |
-| Benign | 357 (62.7%) |
-| Malignant | 212 (37.3%) |
-| Missing Values | None |
-
-The 30 features are computed from digitised images of fine needle aspirate (FNA) biopsies. They include measurements like radius, texture, perimeter, area, smoothness, compactness, concavity etc. — each given as mean, standard error, and worst value.
-
----
 
 #  Project Objectives
 
@@ -56,6 +42,21 @@ Machine Learning offers an opportunity to assist healthcare professionals by:
 * Supporting decision-making processes.
 
 The goal is to build a predictive system capable of accurately classifying breast tumors using patient biopsy measurements.
+
+---
+#  Dataset
+
+| Property | Details |
+|----------|---------|
+| Name | Wisconsin Breast Cancer Dataset |
+| Source | `sklearn.datasets.load_breast_cancer()` |
+| Total Samples | 569 |
+| Features | 30 (numerical) |
+| Benign | 357 (62.7%) |
+| Malignant | 212 (37.3%) |
+| Missing Values | None |
+
+The 30 features are computed from digitised images of fine needle aspirate (FNA) biopsies. They include measurements like radius, texture, perimeter, area, smoothness, compactness, concavity etc. — each given as mean, standard error, and worst value.
 
 ---
 
