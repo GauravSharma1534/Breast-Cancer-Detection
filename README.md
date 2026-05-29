@@ -3,7 +3,7 @@
 > **Gaurav Sharma | 23BDA70050 | Chandigarh University**  
 > Python · Scikit-learn · Pandas · Matplotlib · 2025
 
-## Project
+# Project
 
 Breast cancer is one of the most common cancers in women worldwide. Early detection can save lives. In this project, I built a machine learning pipeline that classifies breast tumours as **Benign** or **Malignant** using the Wisconsin Breast Cancer Dataset.
 
@@ -13,7 +13,7 @@ This is my B.Tech Data Science project built as part of my coursework at Chandig
 
 ---
 
-##  Dataset
+#  Dataset
 
 | Property | Details |
 |----------|---------|
