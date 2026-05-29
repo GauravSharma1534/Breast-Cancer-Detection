@@ -378,6 +378,16 @@ The program will:
 * Save Visualizations
 
 ---
+##  Output Charts
+
+The script automatically generates these 5 charts:
+
+1. **EDA Overview** — class balance bar chart, feature correlation with target, mean radius boxplot by class
+2. **Model Comparison** — grouped bar chart (Acc/Prec/Recall/F1) + ROC curves for all 3 models
+3. **Confusion Matrices** — heatmaps showing TP, TN, FP, FN for each model
+4. **Feature Importance** — top 15 most important features from Random Forest
+5. **Cross-Validation** — boxplot of 5-fold accuracy scores per model
+
 
 #  Key Findings
 
@@ -414,15 +424,6 @@ This is particularly important because undetected cancer cases can have severe m
 All models demonstrated strong stability with very low variance across folds.
 
 ---
-##  Output Charts
-
-The script automatically generates these 5 charts:
-
-1. **EDA Overview** — class balance bar chart, feature correlation with target, mean radius boxplot by class
-2. **Model Comparison** — grouped bar chart (Acc/Prec/Recall/F1) + ROC curves for all 3 models
-3. **Confusion Matrices** — heatmaps showing TP, TN, FP, FN for each model
-4. **Feature Importance** — top 15 most important features from Random Forest
-5. **Cross-Validation** — boxplot of 5-fold accuracy scores per model
 
 #  Learning Outcomes
 
