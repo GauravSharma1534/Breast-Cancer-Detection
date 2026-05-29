@@ -130,7 +130,7 @@ The goal is to build a predictive system capable of accurately classifying breas
 
 ---
 
-# 🩺 Dataset Information
+#  Dataset Information
 
 ## Wisconsin Breast Cancer Dataset
 
@@ -275,7 +275,7 @@ Advantages:
 
 ---
 
-# 📈 Visualization Outputs
+#  Visualization Outputs
 
 The project automatically generates multiple visualizations.
 
