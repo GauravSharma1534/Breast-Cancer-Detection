@@ -3,9 +3,7 @@
 > **Gaurav Sharma | 23BDA70050 | Chandigarh University**  
 > Python · Scikit-learn · Pandas · Matplotlib · 2025
 
----
-
-##  About the Project
+---Project
 
 Breast cancer is one of the most common cancers in women worldwide. Early detection can save lives. In this project, I built a machine learning pipeline that classifies breast tumours as **Benign** or **Malignant** using the Wisconsin Breast Cancer Dataset.
 
@@ -73,15 +71,7 @@ Running this will:
 
 ---
 
-##  Output Charts
 
-The script automatically generates these 5 charts:
-
-1. **EDA Overview** — class balance bar chart, feature correlation with target, mean radius boxplot by class
-2. **Model Comparison** — grouped bar chart (Acc/Prec/Recall/F1) + ROC curves for all 3 models
-3. **Confusion Matrices** — heatmaps showing TP, TN, FP, FN for each model
-4. **Feature Importance** — top 15 most important features from Random Forest
-5. **Cross-Validation** — boxplot of 5-fold accuracy scores per model
 
 ---
 
@@ -109,19 +99,6 @@ The script automatically generates these 5 charts:
 
 ---
 
-# 🎗️ Breast Cancer Detection Using Machine Learning
-
-##  Overview
-
-Breast cancer is one of the leading causes of cancer-related deaths among women worldwide. Early diagnosis significantly improves treatment success rates and survival outcomes. Machine Learning techniques can assist healthcare professionals by identifying malignant tumors accurately and quickly using clinical data.
-
-This project presents a complete Machine Learning pipeline for breast cancer classification using the Wisconsin Breast Cancer Dataset. Multiple machine learning algorithms are trained, evaluated, and compared to determine the most effective model for detecting malignant and benign tumors.
-
-Additionally, ROC Curve Threshold Optimization is applied to reduce False Negatives, which is particularly important in medical diagnosis because missing a cancer case can have serious consequences.
-
-This project was developed as part of the B.Tech Data Science curriculum at Chandigarh University.
-
----
 
 #  Project Objectives
 
@@ -437,6 +414,15 @@ This is particularly important because undetected cancer cases can have severe m
 All models demonstrated strong stability with very low variance across folds.
 
 ---
+##  Output Charts
+
+The script automatically generates these 5 charts:
+
+1. **EDA Overview** — class balance bar chart, feature correlation with target, mean radius boxplot by class
+2. **Model Comparison** — grouped bar chart (Acc/Prec/Recall/F1) + ROC curves for all 3 models
+3. **Confusion Matrices** — heatmaps showing TP, TN, FP, FN for each model
+4. **Feature Importance** — top 15 most important features from Random Forest
+5. **Cross-Validation** — boxplot of 5-fold accuracy scores per model
 
 #  Learning Outcomes
 
