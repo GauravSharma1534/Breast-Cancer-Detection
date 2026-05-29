@@ -104,7 +104,7 @@ resulting in 30 numerical features.
 
 ---
 
-##  Models Used
+##  Models 
 
 I trained and compared 3 models:
 
