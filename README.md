@@ -366,6 +366,117 @@ python breast_cancer_detection.py
 ```
 
 ---
+#  Live Demo & Repository
+
+###  Live Web Application
+
+Try the Breast Cancer Detection System directly in your browser:
+
+👉 **Live Demo:**
+https://breast-cancer-detection-23bda70050.netlify.app/
+
+---
+
+### 📂 GitHub Repository
+
+Explore the complete source code, machine learning pipeline, charts, documentation, and project resources:
+
+👉 **GitHub Repository:**
+https://github.com/GauravSharma1534/Breast-Cancer-Detection
+
+---
+
+###  Project Resources
+
+The repository includes:
+
+* Machine Learning Pipeline Source Code
+* Performance Evaluation Charts
+* Model Comparison Analysis
+* Cross Validation Results
+* Project Report
+* Project Presentation
+* Interactive Demo Files
+
+---
+
+###  AI & Machine Learning Features
+
+✅ Breast Cancer Classification
+
+✅ Logistic Regression
+
+✅ Support Vector Machine (RBF)
+
+✅ Random Forest Classifier
+
+✅ ROC Curve Analysis
+
+✅ Threshold Optimization
+
+✅ Feature Importance Analysis
+
+✅ Cross Validation
+
+✅ Data Visualization
+
+✅ Medical AI Application
+
+---
+
+###  Model Performance Summary
+
+| Model               | Accuracy | ROC-AUC |
+| ------------------- | -------- | ------- |
+| Logistic Regression | 98.25%   | 99.54%  |
+| SVM (RBF)           | 97.37%   | 99.57%  |
+| Random Forest       | 95.61%   | 99.32%  |
+
+---
+
+### 🔬 Dataset Information
+
+| Property       | Value                           |
+| -------------- | ------------------------------- |
+| Dataset        | Wisconsin Breast Cancer Dataset |
+| Samples        | 569                             |
+| Features       | 30                              |
+| Classes        | Benign / Malignant              |
+| Missing Values | None                            |
+
+---
+
+###  Healthcare Impact
+
+This project demonstrates how Artificial Intelligence can assist healthcare professionals by:
+
+* Supporting early cancer detection
+* Reducing diagnostic errors
+* Improving screening efficiency
+* Identifying high-risk cases faster
+* Assisting clinical decision-making
+
+---
+
+###  Key Achievement
+
+ROC Threshold Optimization reduced false negatives by approximately **18%**, helping minimize the risk of missing malignant cancer cases.
+
+---
+
+###  Quick Access
+
+| Resource          | Link                                                        |
+| ----------------- | ----------------------------------------------------------- |
+| Live Demo         | https://breast-cancer-detection-23bda70050.netlify.app/     |
+| GitHub Repository | https://github.com/GauravSharma1534/Breast-Cancer-Detection |
+| Project Report    | Available in Repository                                     |
+| Presentation      | Available in Repository                                     |
+| Charts            | Available in Repository                                     |
+| Demo Files        | Available in Repository                                     |
+
+---
+
 
 #  Expected Output
 
