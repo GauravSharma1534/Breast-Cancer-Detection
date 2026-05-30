@@ -434,7 +434,7 @@ The repository includes:
 
 ---
 
-### 🔬 Dataset Information
+###  Dataset Information
 
 | Property       | Value                           |
 | -------------- | ------------------------------- |
